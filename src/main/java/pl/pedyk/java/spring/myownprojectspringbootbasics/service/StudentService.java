@@ -24,12 +24,7 @@ public class StudentService {
 
     public List<Student> startListOfStudents() {
         return studentRepository.findAll();
-//                List.of(
-//                new Student("Jan Nowak", 1L, 26, LocalDate.of(1995, Month.SEPTEMBER, 23), "jan.nowak@gmail.com"),
-//                new Student("Katarzyna Bak", 2L, 30, LocalDate.of(1991, Month.OCTOBER, 20), "kasia.bak@gmail.com"),
-//                new Student("Krzysztof Krawczyk", 3L, 31, LocalDate.of(1990, Month.JANUARY, 2), "krzysztof.k@gmail.com"),
-//                new Student("Ada Chodakowska", 4L, 32, LocalDate.of(1981, Month.MAY, 9), "chodakowska@gmail.com")
-//                  );
+
     }
 
     public void registerNewStudent(Student student) {

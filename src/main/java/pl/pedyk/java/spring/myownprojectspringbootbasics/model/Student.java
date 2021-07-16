@@ -11,8 +11,8 @@ public class Student {
 
     @Id
     @SequenceGenerator(
-            name = "student_sequenxe",
-            sequenceName = "student_sequenxe",
+            name = "student_sequence",
+            sequenceName = "student_sequence",
             allocationSize = 1
     )
     @GeneratedValue(
